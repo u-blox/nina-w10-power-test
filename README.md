@@ -14,7 +14,7 @@ You should then run the Espressif `msys` command prompt, `cd` into the build dir
 
 You can also build under Eclipse ("Eclipse for C/C++ Development", AKA CDT); just use `File -> Import...` and, in the dialog that pops up, choose `C/C++ -> Import Existing Projects into Workspace`, set the root directory to `c:/msys32/home/user-name/esp/nina-w10-power-test` (where `user-name` is replaced with your user name within the Espressif build environment) and import that project.  You may then need to set up the Eclipse environment, which is specific to that project, as described here:
 
-https://docs.espressif.com/projects/esp-idf/en/latest/get-started/eclipse-setup.html 
+https://docs.espressif.com/projects/esp-idf/en/latest/get-started/eclipse-setup.html#project-properties
 
 When building under Eclipse it is not always clear when the build has failed: you need to watch for red lines in the console window.  It does, however, give you nice context highlighting in the editor window and search capability, so it is worth doing if you intend to spend some time doing development.
 
